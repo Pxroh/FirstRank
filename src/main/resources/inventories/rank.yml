@@ -1,0 +1,1058 @@
+name: "§f:5_rows_full:§f:prestiges:§f:ui_title:§f§f:texte_prestiges:"
+size: 45
+items:
+  information:
+    item:
+      material: PAPER
+      name: '#21e3fbɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴘʀᴇsᴛɪɢᴇs'
+      lore:
+        - '#21e3fb• &fLes #21e3fbprestiges &fpermettent de '
+        - '  #21e3fbdébloquer &fles #21e3fbrangs &fdu serveur.'
+        - '  &fPour débloquer les prestiges '
+        - '  &fil faut #21e3fbcompléter &fdes #21e3fbconditions&f. '
+        - '  &fCertaines sont plus #21e3fbcompliqués '
+        - "  &fà obtenir que d'autres attention !"
+      model-id: 110007
+    slots:
+      - 5-8
+      - 14-17
+      - 23-26
+      - 32-35
+      - 41-44
+  prestige_01:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements_prestiges"
+    slots:
+      - 1
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ ɪ"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_01_MYTHRIL_INGOT"
+        quest_count: 1
+        item:
+          material: "itemsadder:minerals_pack:mythril_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_01_AMBER_INGOT"
+        quest_count: 1
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_01_POTATO"
+        quest_count: 16
+        item:
+          material: "POTATO"
+      - type: itemQuestStock
+        quest_id: "prestige_01_CARROT"
+        quest_count: 16
+        item:
+          material: "CARROT"
+      - type: itemQuestStock
+        quest_id: "prestige_01_BEETROOT"
+        quest_count: 16
+        item:
+          material: "BEETROOT"
+      - type: itemQuestStock
+        quest_id: "prestige_01_WHEAT"
+        quest_count: 16
+        item:
+          material: "WHEAT"
+      - type: itemQuestStock
+        quest_id: "prestige_01_SALMON"
+        quest_count: 16
+        item:
+          material: "SALMON"
+      - type: itemQuestStock
+        quest_id: "prestige_01_COD"
+        quest_count: 16
+        item:
+          material: "COD"
+
+
+
+  prestige_02:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 2
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ ɪɪ"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_02_MYTHRIL_INGOT"
+        quest_count: 2
+        item:
+          material: "itemsadder:minerals_pack:mythril_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_02_AMBER_INGOT"
+        quest_count: 2
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_02_ANNEAU_ARGENT"
+        quest_count: 1
+        item:
+          material: "itemsadder:firstsurvival:anneau"
+      - type: itemQuestStock
+        quest_id: "prestige_02_POTATO"
+        quest_count: 32
+        item:
+          material: "POTATO"
+      - type: itemQuestStock
+        quest_id: "prestige_02_CARROT"
+        quest_count: 32
+        item:
+          material: "CARROT"
+      - type: itemQuestStock
+        quest_id: "prestige_02_BEETROOT"
+        quest_count: 32
+        item:
+          material: "BEETROOT"
+      - type: itemQuestStock
+        quest_id: "prestige_02_WHEAT"
+        quest_count: 32
+        item:
+          material: "WHEAT"
+      - type: itemQuestStock
+        quest_id: "prestige_02_SALMON"
+        quest_count: 32
+        item:
+          material: "SALMON"
+      - type: itemQuestStock
+        quest_id: "prestige_02_COD"
+        quest_count: 32
+        item:
+          material: "COD"
+
+
+
+  prestige_03:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 3
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ ɪɪɪ"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_03_MYTHRIL_INGOT"
+        quest_count: 3
+        item:
+          material: "itemsadder:minerals_pack:mythril_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_03_AMBER_INGOT"
+        quest_count: 3
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_03_POTATO"
+        quest_count: 64
+        item:
+          material: "POTATO"
+      - type: itemQuestStock
+        quest_id: "prestige_03_CARROT"
+        quest_count: 64
+        item:
+          material: "CARROT"
+      - type: itemQuestStock
+        quest_id: "prestige_03_BEETROOT"
+        quest_count: 64
+        item:
+          material: "BEETROOT"
+      - type: itemQuestStock
+        quest_id: "prestige_03_WHEAT"
+        quest_count: 64
+        item:
+          material: "WHEAT"
+      - type: itemQuestStock
+        quest_id: "prestige_03_SALMON"
+        quest_count: 64
+        item:
+          material: "SALMON"
+      - type: itemQuestStock
+        quest_id: "prestige_03_COD"
+        quest_count: 64
+        item:
+          material: "COD"
+
+
+
+  prestige_04:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 10
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ ɪᴠ"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_04_ARCANITE_INGOT"
+        quest_count: 1
+        item:
+          material: "itemsadder:minerals_pack_v2:arcanite_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_04_AMBER_INGOT"
+        quest_count: 4
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_04_ANANAS"
+        quest_count: 16
+        item:
+          material: "itemsadder:playbox_custom_crops:pineapple_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_04_ORANGE"
+        quest_count: 16
+        item:
+          material: "itemsadder:playbox_custom_crops:orange_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_04_FRAISE"
+        quest_count: 16
+        item:
+          material: "itemsadder:playbox_custom_crops:strawberry_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_04_ARROW"
+        quest_count: 16
+        item:
+          material: "ARROW"
+      - type: itemQuestStock
+        quest_id: "prestige_04_GUNPOWDER"
+        quest_count: 16
+        item:
+          material: "GUNPOWDER"
+      - type: itemQuestStock
+        quest_id: "prestige_04_SPIDER_EYE"
+        quest_count: 16
+        item:
+          material: "SPIDER_EYE"
+      - type: itemQuestStock
+        quest_id: "prestige_04_ROTTEN_FLESH"
+        quest_count: 16
+        item:
+          material: "ROTTEN_FLESH"
+      - type: itemQuestStock
+        quest_id: "prestige_04_COOKED_BEEF"
+        quest_count: 16
+        item:
+          material: "COOKED_BEEF"
+      - type: itemQuestStock
+        quest_id: "prestige_04_COOKED_PORKCHOP"
+        quest_count: 16
+        item:
+          material: "COOKED_PORKCHOP"
+      - type: itemQuestStock
+        quest_id: "prestige_04_COOKED_MUTTON"
+        quest_count: 16
+        item:
+          material: "COOKED_MUTTON"
+      - type: itemQuestStock
+        quest_id: "prestige_04_COOKED_CHICKEN"
+        quest_count: 16
+        item:
+          material: "COOKED_CHICKEN"
+
+
+
+  prestige_05:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 11
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ ᴠ"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_05_ARCANITE_INGOT"
+        quest_count: 2
+        item:
+          material: "itemsadder:minerals_pack_v2:arcanite_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_05_AMBER_INGOT"
+        quest_count: 5
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_05_ANNEAU_ARGENT"
+        quest_count: 2
+        item:
+          material: "itemsadder:firstsurvival:anneau"
+      - type: itemQuestStock
+        quest_id: "prestige_05_ANANAS"
+        quest_count: 48
+        item:
+          material: "itemsadder:playbox_custom_crops:pineapple_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_05_ORANGE"
+        quest_count: 48
+        item:
+          material: "itemsadder:playbox_custom_crops:orange_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_05_FRAISE"
+        quest_count: 48
+        item:
+          material: "itemsadder:playbox_custom_crops:strawberry_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_05_ARROW"
+        quest_count: 32
+        item:
+          material: "ARROW"
+      - type: itemQuestStock
+        quest_id: "prestige_05_GUNPOWDER"
+        quest_count: 32
+        item:
+          material: "GUNPOWDER"
+      - type: itemQuestStock
+        quest_id: "prestige_05_SPIDER_EYE"
+        quest_count: 32
+        item:
+          material: "SPIDER_EYE"
+      - type: itemQuestStock
+        quest_id: "prestige_05_ROTTEN_FLESH"
+        quest_count: 32
+        item:
+          material: "ROTTEN_FLESH"
+      - type: itemQuestStock
+        quest_id: "prestige_05_COOKED_BEEF"
+        quest_count: 32
+        item:
+          material: "COOKED_BEEF"
+      - type: itemQuestStock
+        quest_id: "prestige_05_COOKED_PORKCHOP"
+        quest_count: 32
+        item:
+          material: "COOKED_PORKCHOP"
+      - type: itemQuestStock
+        quest_id: "prestige_05_COOKED_MUTTON"
+        quest_count: 32
+        item:
+          material: "COOKED_MUTTON"
+      - type: itemQuestStock
+        quest_id: "prestige_05_COOKED_CHICKEN"
+        quest_count: 32
+        item:
+          material: "COOKED_CHICKEN"
+
+
+
+  prestige_06:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 12
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ vɪ"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_06_ARCANITE_INGOT"
+        quest_count: 3
+        item:
+          material: "itemsadder:minerals_pack_v2:arcanite_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_06_AMBER_INGOT"
+        quest_count: 6
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_06_ANANAS"
+        quest_count: 64
+        item:
+          material: "itemsadder:playbox_custom_crops:pineapple_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_06_ORANGE"
+        quest_count: 64
+        item:
+          material: "itemsadder:playbox_custom_crops:orange_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_06_FRAISE"
+        quest_count: 64
+        item:
+          material: "itemsadder:playbox_custom_crops:strawberry_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_06_ARROW"
+        quest_count: 64
+        item:
+          material: "ARROW"
+      - type: itemQuestStock
+        quest_id: "prestige_06_GUNPOWDER"
+        quest_count: 64
+        item:
+          material: "GUNPOWDER"
+      - type: itemQuestStock
+        quest_id: "prestige_06_SPIDER_EYE"
+        quest_count: 64
+        item:
+          material: "SPIDER_EYE"
+      - type: itemQuestStock
+        quest_id: "prestige_06_ROTTEN_FLESH"
+        quest_count: 64
+        item:
+          material: "ROTTEN_FLESH"
+      - type: itemQuestStock
+        quest_id: "prestige_06_COOKED_BEEF"
+        quest_count: 64
+        item:
+          material: "COOKED_BEEF"
+      - type: itemQuestStock
+        quest_id: "prestige_06_COOKED_PORKCHOP"
+        quest_count: 64
+        item:
+          material: "COOKED_PORKCHOP"
+      - type: itemQuestStock
+        quest_id: "prestige_06_COOKED_MUTTON"
+        quest_count: 64
+        item:
+          material: "COOKED_MUTTON"
+      - type: itemQuestStock
+        quest_id: "prestige_06_COOKED_CHICKEN"
+        quest_count: 64
+        item:
+          material: "COOKED_CHICKEN"
+
+
+
+  prestige_07:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 19
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ vɪɪ"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_07_JADE_INGOT"
+        quest_count: 1
+        item:
+          material: "itemsadder:minerals_pack:jade_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_07_AMBER_INGOT"
+        quest_count: 7
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_07_TOMATE"
+        quest_count: 16
+        item:
+          material: "itemsadder:playbox_custom_crops:tomato_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_07_CHOU"
+        quest_count: 16
+        item:
+          material: "itemsadder:playbox_custom_crops:cabbage_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_07_MAIS"
+        quest_count: 16
+        item:
+          material: "itemsadder:playbox_custom_crops:corn_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_07_COAL_BLOCK"
+        quest_count: 8
+        item:
+          material: "COAL_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_07_IRON_BLOCK"
+        quest_count: 8
+        item:
+          material: "IRON_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_07_GOLD_BLOCK"
+        quest_count: 8
+        item:
+          material: "GOLD_BLOCK"
+
+
+
+  prestige_08:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 20
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ vɪɪɪ"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_08_JADE_INGOT"
+        quest_count: 2
+        item:
+          material: "itemsadder:minerals_pack:jade_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_08_AMBER_INGOT"
+        quest_count: 8
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_08_ANNEAU_ARGENT"
+        quest_count: 2
+        item:
+          material: "itemsadder:firstsurvival:anneau"
+      - type: itemQuestStock
+        quest_id: "prestige_08_TOMATE"
+        quest_count: 48
+        item:
+          material: "itemsadder:playbox_custom_crops:tomato_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_08_CHOU"
+        quest_count: 48
+        item:
+          material: "itemsadder:playbox_custom_crops:cabbage_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_08_MAIS"
+        quest_count: 48
+        item:
+          material: "itemsadder:playbox_custom_crops:corn_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_08_COAL_BLOCK"
+        quest_count: 16
+        item:
+          material: "COAL_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_08_IRON_BLOCK"
+        quest_count: 16
+        item:
+          material: "IRON_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_08_GOLD_BLOCK"
+        quest_count: 16
+        item:
+          material: "GOLD_BLOCK"
+
+
+
+  prestige_09:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 21
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ ɪx"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_09_JADE_INGOT"
+        quest_count: 3
+        item:
+          material: "itemsadder:minerals_pack:jade_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_09_AMBER_INGOT"
+        quest_count: 9
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_09_TOMATE"
+        quest_count: 64
+        item:
+          material: "itemsadder:playbox_custom_crops:tomato_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_09_CHOU"
+        quest_count: 64
+        item:
+          material: "itemsadder:playbox_custom_crops:cabbage_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_09_MAIS"
+        quest_count: 64
+        item:
+          material: "itemsadder:playbox_custom_crops:corn_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_09_COAL_BLOCK"
+        quest_count: 24
+        item:
+          material: "COAL_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_09_IRON_BLOCK"
+        quest_count: 24
+        item:
+          material: "IRON_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_09_GOLD_BLOCK"
+        quest_count: 24
+        item:
+          material: "GOLD_BLOCK"
+
+
+
+  prestige_10:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 28
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ x"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_10_FLUORITE_INGOT"
+        quest_count: 1
+        item:
+          material: "itemsadder:minerals_pack:fluorite_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_10_AMBER_INGOT"
+        quest_count: 10
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_10_CITRON"
+        quest_count: 16
+        item:
+          material: "itemsadder:playbox_custom_crops:lemon_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_10_SALADE"
+        quest_count: 16
+        item:
+          material: "itemsadder:playbox_custom_crops:lettuce_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_10_NAVET"
+        quest_count: 16
+        item:
+          material: "itemsadder:playbox_custom_crops:moolis_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_10_COAL_BLOCK"
+        quest_count: 8
+        item:
+          material: "COAL_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_10_IRON_BLOCK"
+        quest_count: 8
+        item:
+          material: "IRON_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_10_GOLD_BLOCK"
+        quest_count: 8
+        item:
+          material: "GOLD_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_10_REDSTONE_BLOCK"
+        quest_count: 8
+        item:
+          material: "REDSTONE_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_10_LAPIS_BLOCK"
+        quest_count: 8
+        item:
+          material: "LAPIS_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_10_DIAMOND_BLOCK"
+        quest_count: 4
+        item:
+          material: "DIAMOND_BLOCK"
+
+
+
+  prestige_11:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 29
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ xɪ"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_11_FLUORITE_INGOT"
+        quest_count: 2
+        item:
+          material: "itemsadder:minerals_pack:fluorite_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_11_AMBER_INGOT"
+        quest_count: 11
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_11_CITRON"
+        quest_count: 48
+        item:
+          material: "itemsadder:playbox_custom_crops:lemon_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_11_SALADE"
+        quest_count: 48
+        item:
+          material: "itemsadder:playbox_custom_crops:lettuce_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_11_NAVET"
+        quest_count: 48
+        item:
+          material: "itemsadder:playbox_custom_crops:moolis_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_11_COAL_BLOCK"
+        quest_count: 16
+        item:
+          material: "COAL_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_11_IRON_BLOCK"
+        quest_count: 16
+        item:
+          material: "IRON_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_11_GOLD_BLOCK"
+        quest_count: 16
+        item:
+          material: "GOLD_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_11_REDSTONE_BLOCK"
+        quest_count: 16
+        item:
+          material: "REDSTONE_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_11_LAPIS_BLOCK"
+        quest_count: 16
+        item:
+          material: "LAPIS_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_11_DIAMOND_BLOCK"
+        quest_count: 8
+        item:
+          material: "DIAMOND_BLOCK"
+
+
+
+  prestige_12:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 30
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ xɪɪ"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_12_FLUORITE_INGOT"
+        quest_count: 3
+        item:
+          material: "itemsadder:minerals_pack:fluorite_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_12_AMBER_INGOT"
+        quest_count: 12
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_12_CITRON"
+        quest_count: 64
+        item:
+          material: "itemsadder:playbox_custom_crops:lemon_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_12_SALADE"
+        quest_count: 64
+        item:
+          material: "itemsadder:playbox_custom_crops:lettuce_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_12_NAVET"
+        quest_count: 64
+        item:
+          material: "itemsadder:playbox_custom_crops:moolis_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_12_COAL_BLOCK"
+        quest_count: 24
+        item:
+          material: "COAL_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_12_IRON_BLOCK"
+        quest_count: 24
+        item:
+          material: "IRON_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_12_GOLD_BLOCK"
+        quest_count: 24
+        item:
+          material: "GOLD_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_12_REDSTONE_BLOCK"
+        quest_count: 24
+        item:
+          material: "REDSTONE_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_12_LAPIS_BLOCK"
+        quest_count: 24
+        item:
+          material: "LAPIS_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_12_DIAMOND_BLOCK"
+        quest_count: 12
+        item:
+          material: "DIAMOND_BLOCK"
+
+
+
+  prestige_13:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 37
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ xɪɪɪ"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_13_FLUORITE_INGOT"
+        quest_count: 3
+        item:
+          material: "itemsadder:minerals_pack:fluorite_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_13_AMBER_INGOT"
+        quest_count: 12
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_13_GRENADE"
+        quest_count: 16
+        item:
+          material: "itemsadder:playbox_custom_crops:promegranate_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_13_RAISIN"
+        quest_count: 16
+        item:
+          material: "itemsadder:playbox_custom_crops:grape_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_13_BANANE"
+        quest_count: 16
+        item:
+          material: "itemsadder:playbox_custom_crops:banana_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_13_COAL_BLOCK"
+        quest_count: 32
+        item:
+          material: "COAL_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_13_IRON_BLOCK"
+        quest_count: 32
+        item:
+          material: "IRON_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_13_GOLD_BLOCK"
+        quest_count: 32
+        item:
+          material: "GOLD_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_13_REDSTONE_BLOCK"
+        quest_count: 32
+        item:
+          material: "REDSTONE_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_13_LAPIS_BLOCK"
+        quest_count: 32
+        item:
+          material: "LAPIS_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_13_DIAMOND_BLOCK"
+        quest_count: 32
+        item:
+          material: "DIAMOND_BLOCK"
+
+
+
+  prestige_14:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 38
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ xɪv"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_14_FLUORITE_INGOT"
+        quest_count: 2
+        item:
+          material: "itemsadder:minerals_pack:fluorite_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_14_AMBER_INGOT"
+        quest_count: 14
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_14_ANNEAU_ARGENT"
+        quest_count: 5
+        item:
+          material: "itemsadder:firstsurvival:anneau"
+      - type: itemQuestStock
+        quest_id: "prestige_14_GRENADE"
+        quest_count: 48
+        item:
+          material: "itemsadder:playbox_custom_crops:promegranate_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_14_RAISIN"
+        quest_count: 48
+        item:
+          material: "itemsadder:playbox_custom_crops:grape_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_14_BANANE"
+        quest_count: 48
+        item:
+          material: "itemsadder:playbox_custom_crops:banana_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_14_COAL_BLOCK"
+        quest_count: 48
+        item:
+          material: "COAL_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_14_IRON_BLOCK"
+        quest_count: 48
+        item:
+          material: "IRON_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_14_GOLD_BLOCK"
+        quest_count: 48
+        item:
+          material: "GOLD_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_14_REDSTONE_BLOCK"
+        quest_count: 48
+        item:
+          material: "REDSTONE_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_14_LAPIS_BLOCK"
+        quest_count: 48
+        item:
+          material: "LAPIS_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_14_DIAMOND_BLOCK"
+        quest_count: 48
+        item:
+          material: "DIAMOND_BLOCK"
+
+
+
+  prestige_15:
+    type: REQUIREMENT_OPEN
+    inventorie: "requirements"
+    slots:
+      - 39
+    item:
+      material: PAPER
+      model-id: 3305
+      name: "#21e3fb&lᴘʀᴇsᴛɪɢᴇ xv"
+    actions:
+      - type: message
+        messages:
+          - "#21e3fbFɪʀsᴛBʟᴏᴄᴋ2 &f• &fVous venez de #21e3fbrécupérer &fvotre #21e3fbrécompense journaliére 01&f."
+    requirements:
+      - type: itemQuestStock
+        quest_id: "prestige_15_FLUORITE_INGOT"
+        quest_count: 3
+        item:
+          material: "itemsadder:minerals_pack:fluorite_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_15_AMBER_INGOT"
+        quest_count: 15
+        item:
+          material: "itemsadder:minerals_pack:amber_ingot"
+      - type: itemQuestStock
+        quest_id: "prestige_15_GRENADE"
+        quest_count: 64
+        item:
+          material: "itemsadder:playbox_custom_crops:promegranate_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_15_RAISIN"
+        quest_count: 64
+        item:
+          material: "itemsadder:playbox_custom_crops:grape_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_15_BANANE"
+        quest_count: 64
+        item:
+          material: "itemsadder:playbox_custom_crops:banana_1star"
+      - type: itemQuestStock
+        quest_id: "prestige_15_COAL_BLOCK"
+        quest_count: 64
+        item:
+          material: "COAL_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_15_IRON_BLOCK"
+        quest_count: 64
+        item:
+          material: "IRON_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_15_GOLD_BLOCK"
+        quest_count: 64
+        item:
+          material: "GOLD_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_15_REDSTONE_BLOCK"
+        quest_count: 64
+        item:
+          material: "REDSTONE_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_15_LAPIS_BLOCK"
+        quest_count: 64
+        item:
+          material: "LAPIS_BLOCK"
+      - type: itemQuestStock
+        quest_id: "prestige_15_DIAMOND_BLOCK"
+        quest_count: 64
+        item:
+          material: "DIAMOND_BLOCK"

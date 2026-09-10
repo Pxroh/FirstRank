@@ -1,0 +1,36 @@
+debug: true
+
+lang: "en_US"
+
+storage-config:
+  type: SQLITE                #SQLITE or MYSQL
+  host: "127.0.0.1"           #Only need if MYSQL
+  port: 3306                  #Only need if MYSQL
+  table-prefix: "firstrank_"
+  database: "firstrank"
+  username: "root"
+  password: ""
+
+clicks:
+  left:
+    default: 1
+    message:
+      positive: "left %left_click%"
+      negative: "left %left_click%"
+  right:
+    default: 10
+    message:
+      positive: "right %right_click%"
+      negative: "right %right_click%"
+  middle:
+    default: all
+    message:
+      positive: "middle All"
+      negative: "middle ALL"
+
+commands:
+  rank:
+    command: rank
+    aliases:
+      - ranks
+    inventory: rank
