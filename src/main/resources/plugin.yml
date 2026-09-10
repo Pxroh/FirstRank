@@ -1,0 +1,9 @@
+name: FirstRank
+main: fr.saildrag.FirstRank.FirstRank
+author: Saildrag
+version: 1.0
+api-version: 1.21.4
+depend: [FirstCore]
+softdepend: [EcoBits, PlaceholderAPI, ItemsAdder]
+loadbefore:
+   - zMenu

@@ -1,0 +1,45 @@
+tiny_lore:
+  - ""
+  - ""
+placeholder:
+  player_gamemode:
+    true:
+      tiny_lore: " - Value %value%"
+      material: IRON_ORE
+      name: "true"
+      lore:
+        - "one"
+    false:
+      tiny_lore: " - "
+      material: DIAMOND_ORE
+      name: "false"
+      lore:
+        - "one"
+permissions:
+  permissions:
+    true:
+      tiny_lore: " - "
+      material: IRON_ORE
+      name: "true"
+      lore:
+        - "one"
+    false:
+      tiny_lore: " - "
+      material: DIAMOND_ORE
+      name: "false"
+      lore:
+        - "one"
+virtualStorage:
+  quest_id:
+    true:
+      tiny_lore: " - "
+      material: IRON_ORE
+      name: "true"
+      lore:
+        - "one"
+    false:
+      tiny_lore: " - "
+      material: DIAMOND_ORE
+      name: "false"
+      lore:
+        - "one"

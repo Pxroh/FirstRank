@@ -1,0 +1,8 @@
+commands:
+  main:
+    name: ["firstrank"]
+    permission: ""
+    subcommand:
+      reload:
+        name: ["reload"]
+        permission: "firstrank.reload"
